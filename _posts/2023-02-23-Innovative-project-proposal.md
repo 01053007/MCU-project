@@ -47,6 +47,10 @@ This homework is to propose an innovative project and describe the key features,
 ### 系統方塊圖
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_flying_robot.png?raw=true)
 
+### 範例圖片
+
+### 範例影片
+<iframe width="662" height="372" src="https://www.youtube.com/embed/HGweS93bqxg" title="這群人 TGOP │職場老實說2023 Let&#39;s Tell the Truth at Workplace 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 ## 花房照護機器人
 ### 應用功能說明
