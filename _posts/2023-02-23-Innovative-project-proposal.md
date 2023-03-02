@@ -37,7 +37,7 @@ This homework is to propose an innovative project and describe the key features,
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_flying_robot.png?raw=true)
 
 ### 範例圖片
-![](https://github.com/01053007/MCU-project/blob/main/images/zz.png?raw=true)
+![](https://github.com/01053007/MCU-project/blob/905465ba531a491f3c603fef544a834e9dfba743/images/%E7%85%8C%E9%BB%912.jpg#enroll-beta)
 ### 範例影片
 <iframe width="661" height="372" src="https://www.youtube.com/embed/qXByH_o3CIE" title="UK to consider sending more tanks to Ukraine, says defence secretary - BBC News" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
