@@ -9,38 +9,26 @@ tags: [jekyll, ai]
 This homework is to propose an innovative project and describe the key features, list all Design Considerations and the required technologies, then draw the System Block Diagram.
 
 ---
-## 家用飛行機器人
+## 家用清潔管家機器人
 ### 應用功能說明
-1. 居家監控：外出時可隨時查看家裡各處狀況
-2. 環境監測：溫濕度感測+瓦斯偵測+空氣品質偵測 
-3. 清潔環境：撢灰塵, 除臭
-4. 丟棄垃圾：丟棄小型垃圾袋至垃圾車或社區資源回收區
-5. 餐飲服務：遞送調味料, 可樂, 水果, 零食
+1. 接收指示：接收手勢或口令了解需求
+2. 環境清潔：定時保持地面整潔 
+3. 控制家電：利用紅外線遙控裝置控制其他電器
 
 ### 設計考量與相關技術
 **系統設計考量：**<br>
-1. 移動方式:共軸雙旋翼
+1. 移動方式:四輪馬達驅動
 2. 供電方式:電池＋自動充電
-3. 聯網方式: WiFi 或 BLE to中控電腦
+3. 聯網方式: WiFi 或 BLE to 手機
 
 **所需相關技術：**
-1. 飛行姿態偵測與控制: ESP32 + MPU6050 + PID controller
-2. 溫濕度感測 & 氣體偵測: HTU21D + MQ2 + MQ7 + MQ135
-3. 紅外線遙控: IR-LED 
-4. 影像傳輸: ESP32-CAM模組
-5. 物品夾具：懸吊掛勾, 磁鐵吸吊
-6. 服務器: 具AI加速(GPU)
-  - 影像物件偵測辨識: CSL-YOLO
-  - 任務規劃控制: Mission Planner with Floorplan
+1. : ESP32 + MPU6050 + PID controller
+2. 紅外線遙控: IR-LED 
+3. 影像傳輸: ESP32-CAM模組
+4. 雷射距離感感器：LDS
 
 ### 系統方塊圖
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_flying_robot.png?raw=true)
-
-### 系統方
-![](https://github.com/01053007/MCU-project/blob/main/images/zz.png?raw=true)
-### 範例影片
-<iframe width="661" height="372" src="https://www.youtube.com/embed/qXByH_o3CIE" title="UK to consider sending more tanks to Ukraine, says defence secretary - BBC News" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+![](https://github.com/01053007/MCU-project/blob/main/images/block_picture.png?raw=true)
 ---
 ## Design Methodology (設計方法)
 * Top-Down Design  ：由上層應用分析再區分出下層個別功能及所需軟硬體設計
