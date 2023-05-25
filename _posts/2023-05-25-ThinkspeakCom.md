@@ -105,3 +105,5 @@ void loop() {
   delay(1*10*1000);
 }
 ```
+## 執行結果
+![](https://github.com/01053007/MCU-project/blob/main/images/ThinkspeakCom_1.png?raw=true)
