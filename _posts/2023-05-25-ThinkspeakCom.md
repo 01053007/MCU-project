@@ -1,5 +1,5 @@
 ## 系統方塊圖
-![](https://github.com/01053007/MCU-project/blob/main/images/Thinkspeakom_2.png?raw=true)
+![](https://github.com/01053007/MCU-project/blob/main/images/Thinkspeacom_2.png?raw=true)
 ## 系統程式碼
 ```
 #include <WiFi.h> 
